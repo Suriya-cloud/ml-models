@@ -15,7 +15,7 @@ result.innerText = "Predicting...";
 try {
 
     const response = await fetch(
-        "http://127.0.0.1:5000/predict",
+        "https://ml-models-api-arkn.onrender.com",
         {
             method: "POST",
 
