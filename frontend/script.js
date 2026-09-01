@@ -1,5 +1,6 @@
 async function predictPrice() {
 
+
 const areaInput = document.getElementById("area");
 const result = document.getElementById("result");
 
@@ -42,5 +43,6 @@ try {
 
     console.error(error);
 }
+
 
 }
